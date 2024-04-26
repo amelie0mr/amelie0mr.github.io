@@ -1,0 +1,207 @@
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.310),rgba(31, 31, 31, 0.355)), url(images/sculptures1.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+  color: aliceblue;
+  width: 99%;
+
+}
+
+.container{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.portfolio-img{
+  margin-top: 50px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.image_user{
+  height: 15rem;
+  border-radius: 5%;
+  
+  
+  
+}
+
+.text_pres{
+  position: relative;
+  font-size: 100px;
+}
+
+.pres{
+  position: relative;
+  text-align: justify;
+  letter-spacing: 6px;
+}
+
+.card{
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	min-height: 350px;
+  height: auto;
+  width: auto;
+	margin: auto;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+
+}
+.com-s{
+	width: 9rem;
+	margin: auto;
+}
+
+
+
+.img-com-so{
+  height: 10rem;
+  width: fit-content;
+  margin: auto;
+
+}
+
+.img-pres{
+  order: 1;
+}
+
+.image_user{
+  order: 2;
+}
+
+.container{
+  align-items: center;
+  
+  margin-right: 200px;
+  margin-left: 100px;
+
+}
+
+.zoom{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+
+
+}
+
+.zoom img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  height: 100%;
+
+}
+
+.zoom:hover img{
+  transform: scale(1.5);
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+}
+
+.image_cofee{
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+  overflow: hidden;
+  
+}
+
+.image_cofee img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  height: 100%;
+}
+
+.image_cofee:hover img{
+  transform: scale(1.2);
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.logo img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  height: 100%;
+
+
+}
+
+.progress{
+  height: 10px;
+  width: 150px;
+}
+
+l{
+	list-style: none;
+	padding: 0 15px;
+}
+
+.side-nav{
+	width: 300px;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+  bottom: 0;
+	padding-top: 60px;
+  padding-bottom: 30px;
+	background: transparent;
+  overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+
+}
+
+
+
+ul li{
+	margin: 30px 0;
+	display: flex;
+	align-items:start;
+	justify-content:start;
+	cursor: pointer;
+}
+
+
+
+.logo-btn {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+.logo-img {
+    width: 40px; 
+    height: auto;
+    display: inline-block;
+    margin-right: 8px;
+    left: 1px;
+}
+
+.logo-text {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.logo-btn:hover .logo-text {
+    opacity: 1;
+}
